@@ -24,13 +24,11 @@ camera = PiCamera()
 def main(): 
     side = input('B or W: ')
     processed_side = side.strip() 
-    if side == 'W':
-        moves.append('e2e4')               # Lets always play the classic e2e4 move as the first move as White.
     while True: 
         move_arm_away()
         sleep(30)                          # Change this value to see how long we should wait 
         capture_board_state(camera)
-        robot_move = find_best_move(side)
+        robot_move = find_best_move(processed_side)
         distance_to_move = process_board_state(robot_move, aruco_dict, parameters)
         move_arm(robot_move, distance_to_move) # Maybe pass in ID? 
         sleep(30)                          # Change this value to see how long we should wait 
