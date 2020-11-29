@@ -8,3 +8,7 @@ def move_arm(robot_move, distance_to_move): # Maybe pass in the relevant ID?
     starting_place = robot_move[0:2]
     ending_place = robot_move[2:4]
     return None
+
+def drop_piece():
+    # TODO : Make the arm drop the piece at desired spot
+    return None

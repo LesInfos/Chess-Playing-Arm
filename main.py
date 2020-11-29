@@ -22,8 +22,10 @@ moves = []
 camera = PiCamera()
 
 def main(): 
-    side = input('B or W: ')
+    side = input('Input the side you wish to play -- B or W: ')
     processed_side = side.strip() 
+    if side != 'B' or side != 'W':
+        return "Incorrect Side Selection" 
     while True: 
         move_arm_away()
         sleep(30)                          # TODO: Change this value to see how long we should wait for the arm to move
@@ -50,4 +52,10 @@ def find_best_move(side):
         moves.append(processed_move)              
     return engine_move                          # Returns the move the robot should play 
 
-        
+if __name__ == '__main__':
+    try:
+        main()
+    except KeyboardInterrupt:
+        drop_piece()
+        move_arm_away()                         # Move arm away from the board if we want to cancel the program 
+        print('Interrupted: Program Cancelled')
