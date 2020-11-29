@@ -2,7 +2,7 @@
 from picamera import PiCamera
 from time import sleep
 from controls import * 
-from vision import * 
+from vision import capture_board_state, process_board_state
 import numpy as np
 from cv2 import aruco
 import matplotlib.pyplot as plt
