@@ -34,6 +34,8 @@ def main():
         distance_to_move = process_board_state(robot_move, aruco_dict, parameters)
         move_arm(robot_move, distance_to_move) # Maybe pass in ID? 
         sleep(30)                          # TODO: Change this value to see how long we should wait for the arm to move
+        drop_piece()
+        sleep(30)                          # TODO: Change this value to see how long we should wait for the arm to move
 
 def find_best_move(side):
     if side == 'W': 
