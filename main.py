@@ -1,4 +1,3 @@
-from stockfish_algo import * 
 from picamera import PiCamera
 from time import sleep
 from controls import * 
