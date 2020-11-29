@@ -17,25 +17,39 @@ parameters =  aruco.DetectorParameters_create()
 # Setup stockfish. The player is always White in this case. To keep track of the moves, we add the moves to a list 
 stockfish = Stockfish(parameters={"Threads": 2, "Minimum Thinking Time": 20})
 moves = []
-moves.append('e2e4') # Lets always play the classic e2e4 move as the first move as White
+
+# Setup Camera 
+camera = PiCamera()
 
 def main(): 
+    side = input('B or W: ')
+    processed_side = side.strip() 
+    if side == 'W':
+        moves.append('e2e4')               # Lets always play the classic e2e4 move as the first move as White.
     while True: 
         move_arm_away()
         sleep(30)                          # Change this value to see how long we should wait 
-        capture_board_state()
-        robot_move = find_best_move(moves)
-        distance_to_move = process_board_state(robot_move)
+        capture_board_state(camera)
+        robot_move = find_best_move(side)
+        distance_to_move = process_board_state(robot_move, aruco_dict, parameters)
         move_arm(robot_move, distance_to_move) # Maybe pass in ID? 
         sleep(30)                          # Change this value to see how long we should wait 
 
-def find_best_move():
-    my_move = input('My move: ')                 # Get the player move --> The format should be e2e4 (meaning move pawn from e2 to e4)
-    processed_move = my_move.strip()            # Gets rid of the player's leading/trailing white space
-    moves.append(processed_move)                # Append to all moves played 
-    stockfish.set_position(moves)               # Set the board position according to the moves played
-    engine_move = stockfish.get_best_move()     # Stockfish finds the best move 
-    moves.append(engine_move)                   # Appends the move and then loops back for the player's next move
+def find_best_move(side):
+    if side == 'W': 
+        my_move = input('My move: ')                 # Get the player move --> The format should be e2e4 (meaning move pawn from e2 to e4)
+        processed_move = my_move.strip()            # Gets rid of the player's leading/trailing white space
+        moves.append(processed_move)                # Append to all moves played 
+        stockfish.set_position(moves)               # Set the board position according to the moves played
+        engine_move = stockfish.get_best_move()     # Stockfish finds the best move 
+        moves.append(engine_move)                   # Appends the move and then loops back for the player's next move
+    else: # Basically flip the order 
+        stockfish.set_position(moves)               # TODO: Check if empty array errors
+        engine_move = stockfish.get_best_move()    
+        moves.append(engine_move)                  
+        my_move = input('My move: ')                
+        processed_move = my_move.strip()           
+        moves.append(processed_move)              
     return engine_move                          # Returns the move the robot should play 
 
         

@@ -8,19 +8,15 @@ import matplotlib as mpl
 import pandas as pd
 
 
-
-def capture_board_state(): 
-    camera = PiCamera()
+def capture_board_state(camera): 
     camera.start_preview()
     camera.capture('/home/pi/Desktop/106a_project/board.jpg')
     sleep(5)                # Give sometime to capture the board state in case things go wrong
     camera.stop_preview()
 
-def process_board_state(robot_move): 
+def process_board_state(robot_move, aruco_dict, parameters): 
     frame = cv2.imread('/home/pi/Desktop/106a_project/board.jpg')
     gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    aruco_dict = aruco.Dictionary_get(aruco.DICT_ARUCO_ORIGINAL)
-    parameters =  aruco.DetectorParameters_create()
     corners, ids, rejectedImgPoints = aruco.detectMarkers(gray_img, aruco_dict, parameters=parameters)
 
     # TODO: Figure out how which ID maps the piece in which we want to move and return the distance
