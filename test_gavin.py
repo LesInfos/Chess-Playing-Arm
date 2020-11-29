@@ -26,10 +26,9 @@ def main():
     processed_side = side.strip() 
     if side != 'B' or side != 'W':
         return "Incorrect Side Selection" 
-    while True: 
-        capture_board_state(camera)
-        robot_move = find_best_move(processed_side)
-        distance_to_move = process_board_state(robot_move, aruco_dict, parameters)
+    capture_board_state(camera)
+    robot_move = find_best_move(processed_side)
+    distance_to_move = process_board_state(robot_move, aruco_dict, parameters)
 
 def find_best_move(side):
     if side == 'W': 
