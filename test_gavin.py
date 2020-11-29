@@ -21,6 +21,7 @@ moves = []
 
 # Setup Camera 
 camera = PiCamera()
+camera.start_preview()
 
 def main(): 
     side = input('Input the side you wish to play -- B or W: ')
