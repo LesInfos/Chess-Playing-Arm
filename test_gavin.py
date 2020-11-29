@@ -15,12 +15,12 @@ aruco_dict = aruco.Dictionary_get(aruco.DICT_ARUCO_ORIGINAL)
 parameters =  aruco.DetectorParameters_create() 
 
 # Setup stockfish. The player is always White in this case. To keep track of the moves, we add the moves to a list 
-stockfish = Stockfish(parameters={"Threads": 2, "Minimum Thinking Time": 20})
-moves = []
+# stockfish = Stockfish(parameters={"Threads": 2, "Minimum Thinking Time": 20})
+# moves = []
 
 # Setup Camera 
-camera = PiCamera()
-camera.start_preview()
+# camera = PiCamera()
+# camera.start_preview()
 
 def main(): 
     side = input('Input the side you wish to play -- B or W: ')
