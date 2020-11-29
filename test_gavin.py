@@ -4,7 +4,6 @@ from time import sleep
 from controls import * 
 from vision import * 
 import numpy as np
-import cv2, PIL
 from cv2 import aruco
 import matplotlib.pyplot as plt
 import matplotlib as mpl
