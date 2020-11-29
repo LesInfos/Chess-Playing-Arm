@@ -7,15 +7,15 @@ from cv2 import aruco
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import pandas as pd
-# from stockfish import Stockfish
+from stockfish import Stockfish
 
-# # Setup the aruco tag: 
-# aruco_dict = aruco.Dictionary_get(aruco.DICT_ARUCO_ORIGINAL)
-# parameters =  aruco.DetectorParameters_create() 
+# Setup the aruco tag: 
+aruco_dict = aruco.Dictionary_get(aruco.DICT_ARUCO_ORIGINAL)
+parameters =  aruco.DetectorParameters_create() 
 
-# # Setup stockfish. The player is always White in this case. To keep track of the moves, we add the moves to a list 
-# stockfish = Stockfish(parameters={"Threads": 2, "Minimum Thinking Time": 20})
-# moves = []
+# Setup stockfish. The player is always White in this case. To keep track of the moves, we add the moves to a list 
+stockfish = Stockfish(parameters={"Threads": 2, "Minimum Thinking Time": 20})
+moves = []
 
 # Setup Camera 
 camera = PiCamera()
