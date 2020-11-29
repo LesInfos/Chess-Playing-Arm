@@ -26,12 +26,12 @@ def main():
     processed_side = side.strip() 
     while True: 
         move_arm_away()
-        sleep(30)                          # Change this value to see how long we should wait 
+        sleep(30)                          # TODO: Change this value to see how long we should wait for the arm to move
         capture_board_state(camera)
         robot_move = find_best_move(processed_side)
         distance_to_move = process_board_state(robot_move, aruco_dict, parameters)
         move_arm(robot_move, distance_to_move) # Maybe pass in ID? 
-        sleep(30)                          # Change this value to see how long we should wait 
+        sleep(30)                          # TODO: Change this value to see how long we should wait for the arm to move
 
 def find_best_move(side):
     if side == 'W': 
@@ -41,7 +41,7 @@ def find_best_move(side):
         stockfish.set_position(moves)               # Set the board position according to the moves played
         engine_move = stockfish.get_best_move()     # Stockfish finds the best move 
         moves.append(engine_move)                   # Appends the move and then loops back for the player's next move
-    else: # Basically flip the order 
+    else: # Basically flip the order if we are playing as black
         stockfish.set_position(moves)               # TODO: Check if empty array errors
         engine_move = stockfish.get_best_move()    
         moves.append(engine_move)                  
