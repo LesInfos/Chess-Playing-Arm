@@ -11,8 +11,9 @@ import pandas as pd
 def capture_board_state(camera): 
     camera.start_preview()
     camera.capture('/home/pi/Desktop/106a_project/board.jpg')
-    sleep(5)                # Give sometime to capture the board state in case things go wrong
+    sleep(5)                #TODO: Change:  Give sometime to capture the board state in case things go wrong
     camera.stop_preview()
+
 
 def process_board_state(robot_move, aruco_dict, parameters): 
     frame = cv2.imread('/home/pi/Desktop/106a_project/board.jpg')
