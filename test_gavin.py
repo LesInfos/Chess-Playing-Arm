@@ -24,6 +24,7 @@ camera.start_preview()
 def main(): 
     side = input('Input the side you wish to play -- B or W: ')
     processed_side = side.strip() 
+    print("Got: " + processed_side)
     if side != 'B' or side != 'W':
         print("Incorrect Side Selection")
         return
