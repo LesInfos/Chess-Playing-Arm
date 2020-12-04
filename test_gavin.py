@@ -10,7 +10,7 @@ import pandas as pd
 from stockfish import Stockfish
 
 # Setup the aruco tag: 
-aruco_dict = aruco.Dictionary_get(aruco.DICT_ARUCO_ORIGINAL)
+aruco_dict = aruco.Dictionary_get(aruco.DICT_6X6_250)
 parameters =  aruco.DetectorParameters_create() 
 
 # Setup stockfish. The player is always White in this case. To keep track of the moves, we add the moves to a list 
