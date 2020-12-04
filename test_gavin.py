@@ -25,10 +25,13 @@ def main():
     side = input('Input the side you wish to play -- B or W: ')
     processed_side = side.strip() 
     print("Got: " + processed_side)
-    if processed_side == "B" or processed_side == "W":
+    if (processed_side != "B" and processed_side != "W"):
+        print(processed_side == "W")
         print("Incorrect Side Selection")
         return
+    print("Capturing from camera")
     capture_board_state(camera)
+    print("Calculating best move")
     robot_move = find_best_move(processed_side)
     print(robot_move)
     input("Waiting...")
