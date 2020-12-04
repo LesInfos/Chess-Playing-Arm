@@ -25,7 +25,7 @@ def main():
     side = input('Input the side you wish to play -- B or W: ')
     processed_side = side.strip() 
     print("Got: " + processed_side)
-    if processed_side != 'B' or processed_side != 'W':
+    if processed_side == "B" or processed_side == "W":
         print("Incorrect Side Selection")
         return
     capture_board_state(camera)
