@@ -25,7 +25,8 @@ def main():
     side = input('Input the side you wish to play -- B or W: ')
     processed_side = side.strip() 
     if side != 'B' or side != 'W':
-        return "Incorrect Side Selection" 
+        print("Incorrect Side Selection")
+        return
     capture_board_state(camera)
     robot_move = find_best_move(processed_side)
     distance_to_move = process_board_state(robot_move, aruco_dict, parameters)
