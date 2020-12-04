@@ -46,3 +46,6 @@ def find_best_move(side):
         processed_move = my_move.strip()           
         moves.append(processed_move)              
     return engine_move                          # Returns the move the robot should play 
+
+if __name__ == "__main__":
+    main()
