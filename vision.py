@@ -17,8 +17,8 @@ def capture_board_state(camera):
 
 def process_board_state(robot_move, aruco_dict, parameters): 
     frame = cv2.imread('/home/pi/Desktop/106a_project/board.jpg')
-    gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    corners, ids, rejectedImgPoints = aruco.detectMarkers(gray_img, aruco_dict, parameters=parameters)
+    #gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    corners, ids, rejectedImgPoints = aruco.detectMarkers(frame, aruco_dict, parameters=parameters)
 
     # TODO: Figure out how which ID maps the piece in which we want to move and return the distance
     # TODO: Return the distance to move the piece of the desired location 
@@ -32,5 +32,6 @@ def process_board_state(robot_move, aruco_dict, parameters):
         plt.plot([c[:, 0].mean()], [c[:, 1].mean()], "o", label = "id={0}".format(ids[i]))
     plt.legend()
     plt.show()
-
+    input("Waiting for keyboard input before proceeding: ")
+    return None
 

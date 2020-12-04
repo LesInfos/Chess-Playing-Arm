@@ -19,7 +19,7 @@ moves = []
 
 # Setup Camera 
 camera = PiCamera()
-camera.start_preview()
+camera.resolution = (2592, 1944)
 
 def main(): 
     side = input('Input the side you wish to play -- B or W: ')
@@ -38,7 +38,7 @@ def main():
     distance_to_move = process_board_state(robot_move, aruco_dict, parameters)
 
 def find_best_move(side):
-    if side == 'W': 
+    if side == 'W':
         my_move = input('My move: ')                 # Get the player move --> The format should be e2e4 (meaning move pawn from e2 to e4)
         processed_move = my_move.strip()            # Gets rid of the player's leading/trailing white space
         moves.append(processed_move)                # Append to all moves played 
