@@ -74,7 +74,7 @@ class Board:
     def retrieve(self):
         for row in range(8, 0, -1):
             print(" ".join([getattr(self, letter + str(row)) for letter in "ABCDEFGH"]))
-    def edit(self, x, y, type)
+    def edit(self, x, y, type):
         return place(self, x, y, type)
         
 def insert_piece(Board, x, y, type):
