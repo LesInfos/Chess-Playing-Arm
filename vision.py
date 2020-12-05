@@ -17,7 +17,7 @@ def capture_board_state(camera):
     camera.stop_preview()
 
 
-def process_board_state(board, robot_move, aruco_dict, parameters): 
+def process_board_state(board, aruco_dict, parameters): 
     piecedict = ["BQ", "BK", "BB", "BR", "BN", "BP"]
     for k in range(5):
         print("Pass number " + str(k))
