@@ -25,7 +25,6 @@ def process_board_state(board, robot_move, aruco_dict, parameters):
         corners, ids, rejectedImgPoints = aruco.detectMarkers(frame, aruco_dict, parameters=parameters)
         for i in range(len(ids)):
             c = corners[i][0]
-            plt.plot([c[:, 0].mean()], [c[:, 1].mean()], "o", label = piecedict[ids[i][0]])
             bby.insert_piece(board, c[:, 0].mean(), c[:, 1].mean(), piecedict[ids[i][0]])
     board.retrieve()
     input("Waiting for keyboard input before proceeding: ")
