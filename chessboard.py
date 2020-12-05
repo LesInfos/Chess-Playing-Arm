@@ -63,7 +63,7 @@ class Board:
         self.H7 = None
         self.H8 = None
         
-def insert_piece(Board, x, y, type)
+def insert_piece(Board, x, y, type):
     x_options = {
     "A": [181, 400],
     "B": [401, 590],
@@ -98,7 +98,8 @@ def helper_y(Board, keyer, y, type):
     return False
 
 def place(Board, letter, num, type):
-    (Board.A1 = type) if ((letter == "A") and (num == "1"))
+    if ((letter == "A") and (num == "1")):
+        Board.A1 = type
     (Board.A2 = type) if ((letter == "A") and (num == "2"))
     (Board.A3 = type) if ((letter == "A") and (num == "3"))
     (Board.A4 = type) if ((letter == "A") and (num == "4"))
