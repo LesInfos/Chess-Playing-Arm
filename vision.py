@@ -16,7 +16,7 @@ def capture_board_state(camera):
 
 
 def process_board_state(board, robot_move, aruco_dict, parameters): 
-    piecedict = ["black_queen", "black_king", "black_bishop", "black_rook", "black_knight", "black_pawn"]
+    piecedict = ["BQ", "BK", "BB", "BR", "BK", "BP"]
     frame = cv2.imread('/home/pi/Desktop/106a_project/board.jpg')
     #gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     corners, ids, rejectedImgPoints = aruco.detectMarkers(frame, aruco_dict, parameters=parameters)
