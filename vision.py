@@ -10,32 +10,25 @@ import chessboard as bby
 
 def capture_board_state(camera): 
     camera.start_preview()
-    camera.capture('/home/pi/Desktop/106a_project/board.jpg')
-    sleep(1)                #TODO: Change:  Give sometime to capture the board state in case things go wrong
+    for k in range(5):
+        print("Capturing image " + k)
+        camera.capture('/home/pi/Desktop/106a_project/board' + k + '.jpg')
+        sleep(1)
     camera.stop_preview()
 
 
 def process_board_state(board, robot_move, aruco_dict, parameters): 
     piecedict = ["BQ", "BK", "BB", "BR", "BK", "BP"]
-    frame = cv2.imread('/home/pi/Desktop/106a_project/board.jpg')
-    #gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-    corners, ids, rejectedImgPoints = aruco.detectMarkers(frame, aruco_dict, parameters=parameters)
-
-    # TODO: Figure out how which ID maps the piece in which we want to move and return the distance
-    # TODO: Return the distance to move the piece of the desired location 
-
-    # TODO: For testing -- delete after: 
-    frame_markers = aruco.drawDetectedMarkers(frame.copy(), corners, ids)
-    plt.figure()
-    plt.imshow(frame_markers)
-    for i in range(len(ids)):
-        c = corners[i][0]
-        print(ids[i][0])
-        print(piecedict[ids[i][0]])
-        plt.plot([c[:, 0].mean()], [c[:, 1].mean()], "o", label = piecedict[ids[i][0]])
-        bby.insert_piece(board, c[:, 0].mean(), c[:, 1].mean(), piecedict[ids[i][0]])
-    plt.legend()
-    plt.show()
+    for k in range(5):
+        print("Pass number " + k)
+        frame = cv2.imread('/home/pi/Desktop/106a_project/board' + k + '.jpg')
+        corners, ids, rejectedImgPoints = aruco.detectMarkers(frame, aruco_dict, parameters=parameters)
+        for i in range(len(ids)):
+            c = corners[i][0]
+            print(ids[i][0])
+            print(piecedict[ids[i][0]])
+            plt.plot([c[:, 0].mean()], [c[:, 1].mean()], "o", label = piecedict[ids[i][0]])
+            bby.insert_piece(board, c[:, 0].mean(), c[:, 1].mean(), piecedict[ids[i][0]])
     board.retrieve()
     input("Waiting for keyboard input before proceeding: ")
     return None
