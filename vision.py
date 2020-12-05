@@ -8,7 +8,7 @@ import matplotlib as mpl
 import pandas as pd
 import chessboard as bby
 
-def capture_board_state(camera): 
+def capture_board_state(camera):
     camera.start_preview()
     for k in range(5):
         camera.capture('/home/pi/Desktop/106a_project/board' + str(k) + '.jpg')
@@ -16,7 +16,7 @@ def capture_board_state(camera):
     print("Finished capturing images")
     camera.stop_preview()
 
-def process_board_state(board, aruco_dict, parameters): 
+def process_board_state(board, aruco_dict, parameters):
     piecedict = ["BQ", "BK", "BB", "BR", "BN", "BP"]
     for k in range(5):
         frame = cv2.imread('/home/pi/Desktop/106a_project/board' + str(k) + '.jpg')
@@ -25,6 +25,7 @@ def process_board_state(board, aruco_dict, parameters):
             c = corners[i][0]
             bby.insert_piece(board, c[:, 0].mean(), c[:, 1].mean(), piecedict[ids[i][0]])
     print("finished passes")
+    board.reset()
     while True:
         board.retrieve()
         human_input = input("Correct? Type Y to confirm: ")
