@@ -80,7 +80,7 @@ class Board:
         #print(self.F1+" "+self.F2+" "+self.F3+" "+self.F4+" "+self.F5+" "+self.F6+" "+self.F7+" "+self.F8)
         #print(self.G1+" "+self.G2+" "+self.G3+" "+self.G4+" "+self.G5+" "+self.G6+" "+self.G7+" "+self.G8)
         #print(self.H1+" "+self.H2+" "+self.H3+" "+self.H4+" "+self.H5+" "+self.H6+" "+self.H7+" "+self.H8)
-        for row in range(1, 9):
+        for row in range(8, 0, -1):
             print(" ".join([getattr(self, letter + str(row)) for letter in "ABCDEFGH"]))
         
 def insert_piece(Board, x, y, type):
