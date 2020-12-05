@@ -1,67 +1,76 @@
 class Board:
     def __init__(self):
-        self.A1 = None
-        self.A2 = None
-        self.A3 = None
-        self.A4 = None
-        self.A5 = None
-        self.A6 = None
-        self.A7 = None
-        self.A8 = None
+        self.A1 = ". "
+        self.A2 = ". "
+        self.A3 = ". "
+        self.A4 = ". "
+        self.A5 = ". "
+        self.A6 = ". "
+        self.A7 = ". "
+        self.A8 = ". "
         
-        self.B1 = None
-        self.B2 = None
-        self.B3 = None
-        self.B4 = None
-        self.B5 = None
-        self.B6 = None
-        self.B7 = None
-        self.B8 = None
+        self.B1 = ". "
+        self.B2 = ". "
+        self.B3 = ". "
+        self.B4 = ". "
+        self.B5 = ". "
+        self.B6 = ". "
+        self.B7 = ". "
+        self.B8 = ". "
         
-        self.C1 = None
-        self.C2 = None
-        self.C3 = None
-        self.C4 = None
-        self.C5 = None
-        self.C6 = None
-        self.C7 = None
-        self.C8 = None
+        self.C1 = ". "
+        self.C2 = ". "
+        self.C3 = ". "
+        self.C4 = ". "
+        self.C5 = ". "
+        self.C6 = ". "
+        self.C7 = ". "
+        self.C8 = ". "
         
-        self.E1 = None
-        self.E2 = None
-        self.E3 = None
-        self.E4 = None
-        self.E5 = None
-        self.E6 = None
-        self.E7 = None
-        self.E8 = None
+        self.E1 = ". "
+        self.E2 = ". "
+        self.E3 = ". "
+        self.E4 = ". "
+        self.E5 = ". "
+        self.E6 = ". "
+        self.E7 = ". "
+        self.E8 = ". "
         
-        self.F1 = None
-        self.F2 = None
-        self.F3 = None
-        self.F4 = None
-        self.F5 = None
-        self.F6 = None
-        self.F7 = None
-        self.F8 = None
+        self.F1 = ". "
+        self.F2 = ". "
+        self.F3 = ". "
+        self.F4 = ". "
+        self.F5 = ". "
+        self.F6 = ". "
+        self.F7 = ". "
+        self.F8 = ". "
         
-        self.G1 = None
-        self.G2 = None
-        self.G3 = None
-        self.G4 = None
-        self.G5 = None
-        self.G6 = None
-        self.G7 = None
-        self.G8 = None
+        self.G1 = ". "
+        self.G2 = ". "
+        self.G3 = ". "
+        self.G4 = ". "
+        self.G5 = ". "
+        self.G6 = ". "
+        self.G7 = ". "
+        self.G8 = ". "
         
-        self.H1 = None
-        self.H2 = None
-        self.H3 = None
-        self.H4 = None
-        self.H5 = None
-        self.H6 = None
-        self.H7 = None
-        self.H8 = None
+        self.H1 = ". "
+        self.H2 = ". "
+        self.H3 = ". "
+        self.H4 = ". "
+        self.H5 = ". "
+        self.H6 = ". "
+        self.H7 = ". "
+        self.H8 = ". "
+    def retrieve(self):
+        print(self.A1+" "+self.A2+" "+self.A3+" "+self.A4+" "+self.A5+" "+self.A6+" "+self.A7+" "+self.A8)
+        print(self.B1+" "+self.B2+" "+self.B3+" "+self.B4+" "+self.B5+" "+self.B6+" "+self.B7+" "+self.B8)
+        print(self.C1+" "+self.C2+" "+self.C3+" "+self.C4+" "+self.C5+" "+self.C6+" "+self.C7+" "+self.C8)
+        print(self.D1+" "+self.D2+" "+self.D3+" "+self.D4+" "+self.D5+" "+self.D6+" "+self.D7+" "+self.D8)
+        print(self.E1+" "+self.E2+" "+self.E3+" "+self.E4+" "+self.E5+" "+self.E6+" "+self.E7+" "+self.E8)
+        print(self.F1+" "+self.F2+" "+self.F3+" "+self.F4+" "+self.F5+" "+self.F6+" "+self.F7+" "+self.F8)
+        print(self.G1+" "+self.G2+" "+self.G3+" "+self.G4+" "+self.G5+" "+self.G6+" "+self.G7+" "+self.G8)
+        print(self.H1+" "+self.H2+" "+self.H3+" "+self.H4+" "+self.H5+" "+self.H6+" "+self.H7+" "+self.H8)
         
 def insert_piece(Board, x, y, type):
     x_options = {
