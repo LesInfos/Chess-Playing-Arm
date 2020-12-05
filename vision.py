@@ -36,7 +36,7 @@ def process_board_state(board, robot_move, aruco_dict, parameters):
         bby.insert_piece(board, c[:, 0].mean(), c[:, 1].mean(), piecedict[ids[i][0]])
     plt.legend()
     plt.show()
-    print(board.A8)
+    board.retrieve()
     input("Waiting for keyboard input before proceeding: ")
     return None
 
