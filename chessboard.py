@@ -72,16 +72,10 @@ class Board:
         self.H7 = ". "
         self.H8 = ". "
     def retrieve(self):
-        #print(self.A1+" "+self.A2+" "+self.A3+" "+self.A4+" "+self.A5+" "+self.A6+" "+self.A7+" "+self.A8)
-        #print(self.B1+" "+self.B2+" "+self.B3+" "+self.B4+" "+self.B5+" "+self.B6+" "+self.B7+" "+self.B8)
-        #print(self.C1+" "+self.C2+" "+self.C3+" "+self.C4+" "+self.C5+" "+self.C6+" "+self.C7+" "+self.C8)
-        #print(self.D1+" "+self.D2+" "+self.D3+" "+self.D4+" "+self.D5+" "+self.D6+" "+self.D7+" "+self.D8)
-        #print(self.E1+" "+self.E2+" "+self.E3+" "+self.E4+" "+self.E5+" "+self.E6+" "+self.E7+" "+self.E8)
-        #print(self.F1+" "+self.F2+" "+self.F3+" "+self.F4+" "+self.F5+" "+self.F6+" "+self.F7+" "+self.F8)
-        #print(self.G1+" "+self.G2+" "+self.G3+" "+self.G4+" "+self.G5+" "+self.G6+" "+self.G7+" "+self.G8)
-        #print(self.H1+" "+self.H2+" "+self.H3+" "+self.H4+" "+self.H5+" "+self.H6+" "+self.H7+" "+self.H8)
         for row in range(8, 0, -1):
             print(" ".join([getattr(self, letter + str(row)) for letter in "ABCDEFGH"]))
+    def edit(self, x, y, type)
+        return place(self, x, y, type)
         
 def insert_piece(Board, x, y, type):
     x_options = {
