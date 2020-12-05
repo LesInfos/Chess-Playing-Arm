@@ -100,67 +100,130 @@ def helper_y(Board, keyer, y, type):
 def place(Board, letter, num, type):
     if ((letter == "A") and (num == "1")):
         Board.A1 = type
-    (Board.A2 = type) if ((letter == "A") and (num == "2"))
-    (Board.A3 = type) if ((letter == "A") and (num == "3"))
-    (Board.A4 = type) if ((letter == "A") and (num == "4"))
-    (Board.A5 = type) if ((letter == "A") and (num == "5"))
-    (Board.A6 = type) if ((letter == "A") and (num == "6"))
-    (Board.A7 = type) if ((letter == "A") and (num == "7"))
-    (Board.A8 = type) if ((letter == "A") and (num == "8"))
-    (Board.B1 = type) if ((letter == "B") and (num == "1"))
-    (Board.B2 = type) if ((letter == "B") and (num == "2"))
-    (Board.B3 = type) if ((letter == "B") and (num == "3"))
-    (Board.B4 = type) if ((letter == "B") and (num == "4"))
-    (Board.B5 = type) if ((letter == "B") and (num == "5"))
-    (Board.B6 = type) if ((letter == "B") and (num == "6"))
-    (Board.B7 = type) if ((letter == "B") and (num == "7"))
-    (Board.B8 = type) if ((letter == "B") and (num == "8"))
-    (Board.C1 = type) if ((letter == "C") and (num == "1"))
-    (Board.C2 = type) if ((letter == "C") and (num == "2"))
-    (Board.C3 = type) if ((letter == "C") and (num == "3"))
-    (Board.C4 = type) if ((letter == "C") and (num == "4"))
-    (Board.C5 = type) if ((letter == "C") and (num == "5"))
-    (Board.C6 = type) if ((letter == "C") and (num == "6"))
-    (Board.C7 = type) if ((letter == "C") and (num == "7"))
-    (Board.C8 = type) if ((letter == "C") and (num == "8"))
-    (Board.D1 = type) if ((letter == "D") and (num == "1"))
-    (Board.D2 = type) if ((letter == "D") and (num == "2"))
-    (Board.D3 = type) if ((letter == "D") and (num == "3"))
-    (Board.D4 = type) if ((letter == "D") and (num == "4"))
-    (Board.D5 = type) if ((letter == "D") and (num == "5"))
-    (Board.D6 = type) if ((letter == "D") and (num == "6"))
-    (Board.D7 = type) if ((letter == "D") and (num == "7"))
-    (Board.D8 = type) if ((letter == "D") and (num == "8"))
-    (Board.E1 = type) if ((letter == "E") and (num == "1"))
-    (Board.E2 = type) if ((letter == "E") and (num == "2"))
-    (Board.E3 = type) if ((letter == "E") and (num == "3"))
-    (Board.E4 = type) if ((letter == "E") and (num == "4"))
-    (Board.E5 = type) if ((letter == "E") and (num == "5"))
-    (Board.E6 = type) if ((letter == "E") and (num == "6"))
-    (Board.E7 = type) if ((letter == "E") and (num == "7"))
-    (Board.E8 = type) if ((letter == "E") and (num == "8"))
-    (Board.F1 = type) if ((letter == "F") and (num == "1"))
-    (Board.F2 = type) if ((letter == "F") and (num == "2"))
-    (Board.F3 = type) if ((letter == "F") and (num == "3"))
-    (Board.F4 = type) if ((letter == "F") and (num == "4"))
-    (Board.F5 = type) if ((letter == "F") and (num == "5"))
-    (Board.F6 = type) if ((letter == "F") and (num == "6"))
-    (Board.F7 = type) if ((letter == "F") and (num == "7"))
-    (Board.F8 = type) if ((letter == "F") and (num == "8"))
-    (Board.G1 = type) if ((letter == "G") and (num == "1"))
-    (Board.G2 = type) if ((letter == "G") and (num == "2"))
-    (Board.G3 = type) if ((letter == "G") and (num == "3"))
-    (Board.G4 = type) if ((letter == "G") and (num == "4"))
-    (Board.G5 = type) if ((letter == "G") and (num == "5"))
-    (Board.G6 = type) if ((letter == "G") and (num == "6"))
-    (Board.G7 = type) if ((letter == "G") and (num == "7"))
-    (Board.G8 = type) if ((letter == "G") and (num == "8"))
-    (Board.H1 = type) if ((letter == "H") and (num == "1"))
-    (Board.H2 = type) if ((letter == "H") and (num == "2"))
-    (Board.H3 = type) if ((letter == "H") and (num == "3"))
-    (Board.H4 = type) if ((letter == "H") and (num == "4"))
-    (Board.H5 = type) if ((letter == "H") and (num == "5"))
-    (Board.H6 = type) if ((letter == "H") and (num == "6"))
-    (Board.H7 = type) if ((letter == "H") and (num == "7"))
-    (Board.H8 = type) if ((letter == "H") and (num == "8"))
+    if ((letter == "A") and (num == "2"))
+        Board.A2 = type
+    if ((letter == "A") and (num == "3"))
+        Board.A3 = type
+    if ((letter == "A") and (num == "4"))
+        Board.A4 = type
+    if ((letter == "A") and (num == "5"))
+        Board.A5 = type
+    if ((letter == "A") and (num == "6"))
+        Board.A6 = type
+    if ((letter == "A") and (num == "7"))
+        Board.A7 = type
+    if ((letter == "A") and (num == "8"))
+        Board.A8 = type
+    if ((letter == "B") and (num == "1"))
+        Board.B1 = type
+    if ((letter == "B") and (num == "2"))
+        Board.B2 = type
+    if ((letter == "B") and (num == "3"))
+        Board.B3 = type
+    if ((letter == "B") and (num == "4"))
+        Board.B4 = type
+    if ((letter == "B") and (num == "5"))
+        Board.B5 = type
+    if ((letter == "B") and (num == "6"))
+        Board.B6 = type
+    if ((letter == "B") and (num == "7"))
+        Board.B7 = type
+    if ((letter == "B") and (num == "8"))
+        Board.B8 = type
+    if ((letter == "C") and (num == "1"))
+        Board.C1 = type
+    if ((letter == "C") and (num == "2"))
+        Board.C2 = type
+    if ((letter == "C") and (num == "3"))
+        Board.C3 = type
+    if ((letter == "C") and (num == "4"))
+        Board.C4 = type
+    if ((letter == "C") and (num == "5"))
+        Board.C5 = type
+    if ((letter == "C") and (num == "6"))
+        Board.C6 = type
+    if ((letter == "C") and (num == "7"))
+        Board.C7 = type
+    if ((letter == "C") and (num == "8"))
+        Board.C8 = type
+    if ((letter == "D") and (num == "1"))
+        Board.D1 = type
+    if ((letter == "D") and (num == "2"))
+        Board.D2 = type
+    if ((letter == "D") and (num == "3"))
+        Board.D3 = type
+    if ((letter == "D") and (num == "4"))
+        Board.D4 = type
+    if ((letter == "D") and (num == "5"))
+        Board.D5 = type
+    if ((letter == "D") and (num == "6"))
+        Board.D6 = type
+    if ((letter == "D") and (num == "7"))
+        Board.D7 = type
+    if ((letter == "D") and (num == "8"))
+        Board.D8 = type
+    if ((letter == "E") and (num == "1"))
+        Board.E1 = type
+    if ((letter == "E") and (num == "2"))
+        Board.E2 = type
+    if ((letter == "E") and (num == "3"))
+        Board.E3 = type
+    if ((letter == "E") and (num == "4"))
+        Board.E4 = type
+    if ((letter == "E") and (num == "5"))
+        Board.E5 = type
+    if ((letter == "E") and (num == "6"))
+        Board.E6 = type
+    if ((letter == "E") and (num == "7"))
+        Board.E7 = type
+    if ((letter == "E") and (num == "8"))
+        Board.E8 = type
+    if ((letter == "F") and (num == "1"))
+        Board.F1 = type
+    if ((letter == "F") and (num == "2"))
+        Board.F2 = type
+    if ((letter == "F") and (num == "3"))
+        Board.F3 = type
+    if ((letter == "F") and (num == "4"))
+        Board.F4 = type
+    if ((letter == "F") and (num == "5"))
+        Board.F5 = type
+    if ((letter == "F") and (num == "6"))
+        Board.F6 = type
+    if ((letter == "F") and (num == "7"))
+        Board.F7 = type
+    if ((letter == "F") and (num == "8"))
+        Board.F8 = type
+    if ((letter == "G") and (num == "1"))
+        Board.G1 = type
+    if ((letter == "G") and (num == "2"))
+        Board.G2 = type
+    if ((letter == "G") and (num == "3"))
+        Board.G3 = type
+    if ((letter == "G") and (num == "4"))
+        Board.G4 = type
+    if ((letter == "G") and (num == "5"))
+        Board.G5 = type
+    if ((letter == "G") and (num == "6"))
+        Board.G6 = type
+    if ((letter == "G") and (num == "7"))
+        Board.G7 = type
+    if ((letter == "G") and (num == "8"))
+        Board.G8 = type
+    if ((letter == "H") and (num == "1"))
+        Board.H1 = type
+    if ((letter == "H") and (num == "2"))
+        Board.H2 = type
+    if ((letter == "H") and (num == "3"))
+        Board.H3 = type
+    if ((letter == "H") and (num == "4"))
+        Board.H4 = type
+    if ((letter == "H") and (num == "5"))
+        Board.H5 = type
+    if ((letter == "H") and (num == "6"))
+        Board.H6 = type
+    if ((letter == "H") and (num == "7"))
+        Board.H7 = type
+    if ((letter == "H") and (num == "8"))
+        Board.H8 = type
     return True
