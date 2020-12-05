@@ -35,7 +35,7 @@ def main():
     print("Capturing from camera")
     capture_board_state(camera)
     print("Calculating best move")
-    distance_to_move = process_board_state(board, robot_move, aruco_dict, parameters)
+    distance_to_move = process_board_state(board, aruco_dict, parameters)
     robot_move = find_best_move(processed_side)
     print("Robot's move: " + robot_move)
     print("done")
