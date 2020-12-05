@@ -19,7 +19,7 @@ moves = []
 
 # Setup Camera 
 camera = PiCamera()
-camera.resolution = (2592, 1944)
+camera.resolution = (1944, 1944)
 
 def main(): 
     side = input('Input the side you wish to play -- B or W: ')
