@@ -33,9 +33,9 @@ def main():
     capture_board_state(camera)
     print("Calculating best move")
     robot_move = find_best_move(processed_side)
-    print(robot_move)
-    input("Waiting...")
+    print("Robot's move: " + robot_move)
     distance_to_move = process_board_state(robot_move, aruco_dict, parameters)
+    print("done")
 
 def find_best_move(side):
     if side == 'W':
