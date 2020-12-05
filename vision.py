@@ -26,7 +26,15 @@ def process_board_state(board, aruco_dict, parameters):
         for i in range(len(ids)):
             c = corners[i][0]
             bby.insert_piece(board, c[:, 0].mean(), c[:, 1].mean(), piecedict[ids[i][0]])
-    board.retrieve()
-    input("Waiting for keyboard input before proceeding: ")
+    while(true):
+        board.retrieve()
+        human_input = input("Correct? Type Y to confirm: ")
+        if human_input == "Y":
+            return None
+        else:
+            x = input("Board edit: letter...")
+            y = input("Board edit: num...")
+            type = input("Board edit: piece type...")
+            board.edit(x, y, type)
     return None
 
