@@ -18,7 +18,7 @@ def capture_board_state(camera):
 
 
 def process_board_state(board, robot_move, aruco_dict, parameters): 
-    piecedict = ["BQ", "BK", "BB", "BR", "BK", "BP"]
+    piecedict = ["BQ", "BK", "BB", "BR", "BN", "BP"]
     for k in range(5):
         print("Pass number " + str(k))
         frame = cv2.imread('/home/pi/Desktop/106a_project/board' + str(k) + '.jpg')
