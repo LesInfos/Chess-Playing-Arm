@@ -35,11 +35,11 @@ def main():
     print("Capturing from camera")
     capture_board_state(camera)
     print("Calculating best move")
+    distance_to_move = process_board_state(board, robot_move, aruco_dict, parameters)
     robot_move = find_best_move(processed_side)
     print("Robot's move: " + robot_move)
-    distance_to_move = process_board_state(board, robot_move, aruco_dict, parameters)
     print("done")
-
+    
 def find_best_move(side):
     if side == 'W':
         my_move = input('My move: ')                 # Get the player move --> The format should be e2e4 (meaning move pawn from e2 to e4)
