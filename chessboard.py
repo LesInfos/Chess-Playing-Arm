@@ -76,7 +76,7 @@ def insert_piece(Board, x, y, type):
     }
     for key, value in x_options.items():
         if value[0] <= x <= value[1]:
-            return helper_y(key, y, type)
+            return helper_y(Board, key, y, type)
     print("Piece outside of boundaries")
     return False
 
