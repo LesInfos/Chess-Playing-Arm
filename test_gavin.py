@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import pandas as pd
 from stockfish import Stockfish
+import chessboard as bby
 
 # Setup the aruco tag: 
 aruco_dict = aruco.Dictionary_get(aruco.DICT_6X6_250)
@@ -20,6 +21,8 @@ moves = []
 # Setup Camera 
 camera = PiCamera()
 camera.resolution = (1944, 1944)
+
+board = bby.Board()
 
 def main(): 
     side = input('Input the side you wish to play -- B or W: ')
@@ -34,7 +37,7 @@ def main():
     print("Calculating best move")
     robot_move = find_best_move(processed_side)
     print("Robot's move: " + robot_move)
-    distance_to_move = process_board_state(robot_move, aruco_dict, parameters)
+    distance_to_move = process_board_state(board, robot_move, aruco_dict, parameters)
     print("done")
 
 def find_best_move(side):

@@ -6,16 +6,16 @@ from cv2 import aruco
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 import pandas as pd
-
+import chessboard as bby
 
 def capture_board_state(camera): 
     camera.start_preview()
     camera.capture('/home/pi/Desktop/106a_project/board.jpg')
-    sleep(5)                #TODO: Change:  Give sometime to capture the board state in case things go wrong
+    sleep(1)                #TODO: Change:  Give sometime to capture the board state in case things go wrong
     camera.stop_preview()
 
 
-def process_board_state(robot_move, aruco_dict, parameters): 
+def process_board_state(board, robot_move, aruco_dict, parameters): 
     piecedict = ["black_queen", "black_king", "black_bishop", "black_rook", "black_knight", "black_pawn"]
     frame = cv2.imread('/home/pi/Desktop/106a_project/board.jpg')
     #gray_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -33,8 +33,10 @@ def process_board_state(robot_move, aruco_dict, parameters):
         print(ids[i][0])
         print(piecedict[ids[i][0]])
         plt.plot([c[:, 0].mean()], [c[:, 1].mean()], "o", label = piecedict[ids[i][0]])
+        bby.insert_piece(board, c[:, 0].mean(), c[:, 1].mean(), piecedict[ids[i][0]])
     plt.legend()
     plt.show()
+    print(board.A8)
     input("Waiting for keyboard input before proceeding: ")
     return None
 
