@@ -27,6 +27,15 @@ class Board:
         self.C7 = ". "
         self.C8 = ". "
         
+        self.D1 = ". "
+        self.D2 = ". "
+        self.D3 = ". "
+        self.D4 = ". "
+        self.D5 = ". "
+        self.D6 = ". "
+        self.D7 = ". "
+        self.D8 = ". "
+        
         self.E1 = ". "
         self.E2 = ". "
         self.E3 = ". "
