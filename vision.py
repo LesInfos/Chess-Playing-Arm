@@ -26,6 +26,7 @@ def process_board_state(board, aruco_dict, parameters):
         for i in range(len(ids)):
             c = corners[i][0]
             bby.insert_piece(board, c[:, 0].mean(), c[:, 1].mean(), piecedict[ids[i][0]])
+    board.reset()
     while True:
         board.retrieve()
         human_input = input("Correct? Type Y to confirm: ")
