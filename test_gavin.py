@@ -27,7 +27,6 @@ board = bby.Board()
 def main(): 
     print("Capturing from camera")
     capture_board_state(camera)
-    print("Calculating best move")
     distance_to_move = process_board_state(board, aruco_dict, parameters)
     side = input('Input the side you wish to play -- B or W: ')
     processed_side = side.strip() 
@@ -37,6 +36,7 @@ def main():
         print("Incorrect Side Selection")
         return
     robot_move = find_best_move(processed_side)
+    print("Calculating best move")
     print("Robot's move: " + robot_move)
     print("done")
     
