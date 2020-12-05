@@ -11,8 +11,8 @@ import chessboard as bby
 def capture_board_state(camera): 
     camera.start_preview()
     for k in range(5):
-        print("Capturing image " + k)
-        camera.capture('/home/pi/Desktop/106a_project/board' + k + '.jpg')
+        print("Capturing image " + str(k))
+        camera.capture('/home/pi/Desktop/106a_project/board' + str(k) + '.jpg')
         sleep(1)
     camera.stop_preview()
 
@@ -20,8 +20,8 @@ def capture_board_state(camera):
 def process_board_state(board, robot_move, aruco_dict, parameters): 
     piecedict = ["BQ", "BK", "BB", "BR", "BK", "BP"]
     for k in range(5):
-        print("Pass number " + k)
-        frame = cv2.imread('/home/pi/Desktop/106a_project/board' + k + '.jpg')
+        print("Pass number " + str(k))
+        frame = cv2.imread('/home/pi/Desktop/106a_project/board' + str(k) + '.jpg')
         corners, ids, rejectedImgPoints = aruco.detectMarkers(frame, aruco_dict, parameters=parameters)
         for i in range(len(ids)):
             c = corners[i][0]
