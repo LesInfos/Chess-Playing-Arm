@@ -10,6 +10,7 @@ import pandas as pd
 from stockfish import Stockfish
 from stocky import *
 import chessboard as bby
+from robot_controller import *
 
 moves = []
 camera = PiCamera()
@@ -25,7 +26,6 @@ def main():
         print(processed_side == "W")
         print("Incorrect Side Selection")
         return
-        
     while True:
         print("Capturing from camera")
         capture_board_state(camera)
@@ -37,6 +37,7 @@ def main():
         move = board.detect_move(prevboard)
         print("Calculating best move")
         robot_move = find_best_move(processed_side, moves, move)
+        makemove(robot_move)
         input("press Enter when ready to go to next move")
 
 if __name__ == "__main__":
