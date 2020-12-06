@@ -21,7 +21,7 @@ def makemove(stockfish_move):
     test.move_servo_position(3, 120)
     x0 = chessboard_binding_dict[origin][0]
     x1 = chessboard_binding_dict[origin][1]
-    time.sleep(1)
+    time.sleep(2)
 
     for i in range(int(x0)):
         test.move_servo_position(0, i)
@@ -29,17 +29,17 @@ def makemove(stockfish_move):
     for i in range(int(x1)):
         test.move_servo_position(1, i)
         time.sleep(0.02)
-    time.sleep(2)
+    time.sleep(1)
 
     test.move_servo_position(2, 130)
-    time.sleep(1)
+    time.sleep(2)
 
     for i in range (120, 16, -1):
         test.move_servo_position(3,i)
         time.sleep(0.001)
-    time.sleep(2)
-    test.move_servo_position(2, 0)
     time.sleep(1)
+    test.move_servo_position(2, 0)
+    time.sleep(2)
 
     for i in range(int(x0), 0, -1):
         test.move_servo_position(0, i)
@@ -55,15 +55,22 @@ def makemove(stockfish_move):
     for i in range(int(x1)):
         test.move_servo_position(1, i)
         time.sleep(0.02)
-    time.sleep(2)
+    time.sleep(1)
 
     test.move_servo_position(2, 130)
-    time.sleep(1)
+    time.sleep(2)
     for i in range(16, 120):
         test.move_servo_position(3,i)
         time.sleep(0.001)
-    time.sleep(2)
+    time.sleep(1)
     test.move_servo_position(2, 0)
+    time.sleep(2)
+    for i in range(int(x0), 0, -1):
+        test.move_servo_position(0, i)
+        time.sleep(0.02)
+    for i in range(int(x1), 0, -1):
+        test.move_servo_position(1, i)
+        time.sleep(0.02)
     time.sleep(1)
 
     print("Cleaning up")
