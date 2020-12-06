@@ -11,6 +11,7 @@ from stockfish import Stockfish
 import chessboard as bby
 
 # Setup the aruco tag: 
+aruco_dict_other = aruco.Dictionary_get(aruco.DICT_ARUCO_ORIGINAL)
 aruco_dict = aruco.Dictionary_get(aruco.DICT_6X6_250)
 parameters =  aruco.DetectorParameters_create() 
 
