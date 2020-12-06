@@ -76,6 +76,17 @@ class Board:
             print(" ".join([getattr(self, letter + str(row)) for letter in "ABCDEFGH"]))
     def edit(self, x, y, type):
         return place(self, x, y, type)
+    def detect_move(self, prev_board)
+        for row in range(1, 9):
+            for letter in "ABCDEFGH"
+                prev = getattr(prev_board, letter + str(row))
+                next = getattr(self, letter + str(row))
+                if prev != ". " and next == ". "
+                    start = letter.lower() + str(row)
+                if next != ". " and prev == ". "
+                    end = letter.lower() + str(row)
+        return start+end
+    
     def reset(self):
         self.A1 = ". "
         self.A2 = ". "
