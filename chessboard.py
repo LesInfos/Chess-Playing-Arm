@@ -85,6 +85,10 @@ class Board:
                     start = letter.lower() + str(row)
                 if next != ". " and prev == ". ":
                     end = letter.lower() + str(row)
+        print("The previous board state: ")
+        prev_board.retrieve()
+        print("The next board state: ")
+        self.retrieve()
         return start+end
     
     def reset(self):
