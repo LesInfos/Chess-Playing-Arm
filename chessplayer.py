@@ -11,12 +11,11 @@ from stockfish import Stockfish
 from stocky import *
 import chessboard as bby
 
-aruco_dict = aruco.Dictionary_get(aruco.DICT_6X6_250)
-parameters =  aruco.DetectorParameters_create()
 moves = []
 camera = PiCamera()
 camera.resolution = (1944, 1944)
 board = bby.Board()
+prevboard = bby.Board()
 
 def main(): 
     side = input('Input the side you wish to play -- B or W: ')
@@ -30,9 +29,14 @@ def main():
     while True:
         print("Capturing from camera")
         capture_board_state(camera)
-        distance_to_move = process_board_state(board, aruco_dict, parameters)
+        distance_to_move = process_board_state(prevboard)
+        input("press Enter when you have finished making your move")
+        print("Capturing from camera")
+        capture_board_state(camera)
+        distance_to_move2 = process_board_state(board)
+        move = board.detect_move(prevboard)
         print("Calculating best move")
-        robot_move = find_best_move(processed_side, moves)
+        robot_move = find_best_move(processed_side, moves, move)
         input("press Enter when ready to go to next move")
 
 if __name__ == "__main__":
