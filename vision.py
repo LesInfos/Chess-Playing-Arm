@@ -17,10 +17,9 @@ def capture_board_state(camera):
     camera.stop_preview()
 
 def process_board_state(board, aruco_dict, parameters):
+    piecedict = ["WP", "WR", "WB", "WN", "WQ", "WK"]
     if piece_dict == aruco.Dictionary_get(aruco.DICT_6X6_250):
         piecedict = ["BQ", "BK", "BB", "BR", "BN", "BP"]
-    else:
-        piecedict = ["WP", "WR", "WB", "WN", "WQ", "WK"]
     board.reset()
     for k in range(5):
         frame = cv2.imread('/home/pi/Desktop/106a_project/board' + str(k) + '.jpg')
