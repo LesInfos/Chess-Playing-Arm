@@ -12,9 +12,14 @@ import chessboard as bby
 
 stockfish = Stockfish(parameters={"Threads": 2, "Minimum Thinking Time": 20})
 
-def find_best_move(side, moves):
+def find_best_move(side, moves, detected_move):
     if side == 'W':
-        my_move = input('My move: ')
+        print("Detected Move: " + detected_move")
+        human_input = input('Press Y if detected_move is correct: ')
+        if human_input == "Y":
+            my_move = detected_move
+        else:
+            my_move = input('Input your actual move: ')
         processed_move = my_move.strip()
         moves.append(processed_move)
         stockfish.set_position(moves)
