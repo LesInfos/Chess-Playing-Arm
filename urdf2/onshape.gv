@@ -1,0 +1,5 @@
+digraph G {
+node [shape=box];
+"robot_base_mkii" [label="robot_base_mkii"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+}

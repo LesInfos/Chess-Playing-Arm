@@ -1,0 +1,353 @@
+<robot name="onshape">
+<link name="robot_base_mkii">
+<visual>
+<origin xyz="0.146906 0.127027 -0.000763567" rpy="-1.5708 -1.5708 0" />
+<geometry>
+<mesh filename="package://545420.stl"/>
+</geometry>
+<material name="545420_material">
+<color rgba="0.498039 0.498039 0.498039 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.146906 0.127027 -0.000763567" rpy="-1.5708 -1.5708 0" />
+<geometry>
+<mesh filename="package://545420.stl"/>
+</geometry>
+<material name="545420_material">
+<color rgba="0.498039 0.498039 0.498039 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163551 0.117121 -0.0134636" rpy="-1.5708 -6.05522e-17 -1.5708" />
+<geometry>
+<mesh filename="package://575112.stl"/>
+</geometry>
+<material name="575112_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163551 0.117121 -0.0134636" rpy="-1.5708 -6.05522e-17 -1.5708" />
+<geometry>
+<mesh filename="package://575112.stl"/>
+</geometry>
+<material name="575112_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.180196 0.127027 -0.000763567" rpy="-1.5708 1.5708 0" />
+<geometry>
+<mesh filename="package://545420.stl"/>
+</geometry>
+<material name="545420_material">
+<color rgba="0.498039 0.498039 0.498039 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.180196 0.127027 -0.000763567" rpy="-1.5708 1.5708 0" />
+<geometry>
+<mesh filename="package://545420.stl"/>
+</geometry>
+<material name="545420_material">
+<color rgba="0.498039 0.498039 0.498039 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0 0.780392 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0 0.780392 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.0266884" rpy="-1.5708 -4.18698e-48 1.11022e-16" />
+<geometry>
+<mesh filename="package://525123.stl"/>
+</geometry>
+<material name="525123_material">
+<color rgba="0.498039 0.498039 0.498039 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.0266884" rpy="-1.5708 -4.18698e-48 1.11022e-16" />
+<geometry>
+<mesh filename="package://525123.stl"/>
+</geometry>
+<material name="525123_material">
+<color rgba="0.498039 0.498039 0.498039 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163551 0.127027 0.0119364" rpy="1.5708 -2.07134e-16 -1.5708" />
+<geometry>
+<mesh filename="package://535118.stl"/>
+</geometry>
+<material name="535118_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163551 0.127027 0.0119364" rpy="1.5708 -2.07134e-16 -1.5708" />
+<geometry>
+<mesh filename="package://535118.stl"/>
+</geometry>
+<material name="535118_material">
+<color rgba="0.917647 0.917647 0.917647 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.694118 0.0980392 0.0980392 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.694118 0.0980392 0.0980392 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163504 0.126964 0.00433643" rpy="-2.46847e-16 1.58946e-16 -1.5708" />
+<geometry>
+<mesh filename="package://ds3225_sg_coreless.stl"/>
+</geometry>
+<material name="ds3225_sg_coreless_material">
+<color rgba="0.298039 0.298039 0.298039 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.197344 0.126452 -0.0863886" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://robot_base_mkii.stl"/>
+</geometry>
+<material name="robot_base_mkii_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.197344 0.126452 -0.0863886" rpy="0 -0 0" />
+<geometry>
+<mesh filename="package://robot_base_mkii.stl"/>
+</geometry>
+<material name="robot_base_mkii_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.163551 0.127027 0.013054" rpy="1.5708 -1.88584e-16 -1.14436" />
+<geometry>
+<mesh filename="package://.5_x_.75_non_flanged_bearing.stl"/>
+</geometry>
+<material name=".5_x_.75_non_flanged_bearing_material">
+<color rgba="0.231373 0.380392 0.705882 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.163551 0.127027 0.013054" rpy="1.5708 -1.88584e-16 -1.14436" />
+<geometry>
+<mesh filename="package://.5_x_.75_non_flanged_bearing.stl"/>
+</geometry>
+<material name=".5_x_.75_non_flanged_bearing_material">
+<color rgba="0.231373 0.380392 0.705882 1.0"/>
+</material>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+
+</robot>
