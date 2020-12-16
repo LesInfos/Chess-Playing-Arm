@@ -1,0 +1,5 @@
+digraph G {
+node [shape=box];
+"zahnstangeninlay" [label="zahnstangeninlay"];
+node [shape=ellipse, color=blue, fontcolor=blue];
+}

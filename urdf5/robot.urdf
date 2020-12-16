@@ -1,0 +1,1217 @@
+<robot name="onshape">
+<link name="sg90_-_micro_servo_9g_-_tower_pro">
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.54902 0.360784 0.0313725 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.54902 0.360784 0.0313725 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.2887 -0.00535772 0.0101012" rpy="1.26671 -1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.6.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.6_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.2887 -0.00535772 0.0101012" rpy="1.26671 -1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.6.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.6_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.06237 -0.0550878 0.0410012" rpy="1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.06237 -0.0550878 0.0410012" rpy="1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.14748 -0.0550878 0.0225512" rpy="1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.14748 -0.0550878 0.0225512" rpy="1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.2887 -0.00535772 0.0104012" rpy="-1.5708 -1.46411e-15 -1.47798e-15" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.3.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.3_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.2887 -0.00535772 0.0104012" rpy="-1.5708 -1.46411e-15 -1.47798e-15" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.3.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.3_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.133333 -0.0545128 -0.109299" rpy="2.97518e-16 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/robot_base.stl"/>
+</geometry>
+<material name="robot_base_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.133333 -0.0545128 -0.109299" rpy="2.97518e-16 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/robot_base.stl"/>
+</geometry>
+<material name="robot_base_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07112 -0.0550878 0.0528512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.2.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.2_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07112 -0.0550878 0.0528512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.2.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.2_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0.54902 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0.54902 0 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.11968 -0.0550878 0.0225512" rpy="-1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.11968 -0.0550878 0.0225512" rpy="-1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.09017 -0.0550878 0.0410012" rpy="-1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.09017 -0.0550878 0.0410012" rpy="-1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.280219 -0.0194957 0.0618512" rpy="1.5708 -1.03644 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/zahnrad_neu_32mmv2.stl"/>
+</geometry>
+<material name="zahnrad_neu_32mmv2_material">
+<color rgba="0.917647 1 0.0784314 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.280219 -0.0194957 0.0618512" rpy="1.5708 -1.03644 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/zahnrad_neu_32mmv2.stl"/>
+</geometry>
+<material name="zahnrad_neu_32mmv2_material">
+<color rgba="0.917647 1 0.0784314 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.54902 0.360784 0.0313725 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.54902 0.360784 0.0313725 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.03248 -0.0550878 0.0319012" rpy="-2.97518e-16 -2.20231e-15 -2.35922e-16" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/arm1.stl"/>
+</geometry>
+<material name="arm1_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.03248 -0.0550878 0.0319012" rpy="-2.97518e-16 -2.20231e-15 -2.35922e-16" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/arm1.stl"/>
+</geometry>
+<material name="arm1_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13873 -0.0550878 0.0344012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.4.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.4_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13873 -0.0550878 0.0344012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.4.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.4_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.172495 -0.023274 0.0503512" rpy="3.70739e-16 -2.19055e-15 -0.304088" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/arm2.stl"/>
+</geometry>
+<material name="arm2_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.172495 -0.023274 0.0503512" rpy="3.70739e-16 -2.19055e-15 -0.304088" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/arm2.stl"/>
+</geometry>
+<material name="arm2_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13873 -0.0550878 0.0344012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.2.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.2_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13873 -0.0550878 0.0344012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.2.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.2_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.281916 -0.0241513 0.0618512" rpy="1.5708 2.19055e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/bodytop1.stl"/>
+</geometry>
+<material name="bodytop1_material">
+<color rgba="0.909804 0.443137 0.0313725 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.281916 -0.0241513 0.0618512" rpy="1.5708 2.19055e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/bodytop1.stl"/>
+</geometry>
+<material name="bodytop1_material">
+<color rgba="0.909804 0.443137 0.0313725 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.54902 0.360784 0.0313725 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.54902 0.360784 0.0313725 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13873 -0.0550878 0.0347012" rpy="-1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.6.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.6_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13873 -0.0550878 0.0347012" rpy="-1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.6.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.6_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.289227 0.00831249 0.00740124" rpy="3.14159 -3.11952e-16 1.79311" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/servo_grab.stl"/>
+</geometry>
+<material name="servo_grab_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.289227 0.00831249 0.00740124" rpy="3.14159 -3.11952e-16 1.79311" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/servo_grab.stl"/>
+</geometry>
+<material name="servo_grab_material">
+<color rgba="0.615686 0.811765 0.929412 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07112 -0.0550878 0.0528512" rpy="1.5708 2.19055e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.3.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.3_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07112 -0.0550878 0.0528512" rpy="1.5708 2.19055e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.3.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.3_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.299411 -0.0131059 0.0793208" rpy="-1.87488 -1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/zahnstangeninlay.stl"/>
+</geometry>
+<material name="zahnstangeninlay_material">
+<color rgba="0.792157 0.819608 0.933333 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.299411 -0.0131059 0.0793208" rpy="-1.87488 -1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/zahnstangeninlay.stl"/>
+</geometry>
+<material name="zahnstangeninlay_material">
+<color rgba="0.792157 0.819608 0.933333 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.280351 -0.00797767 0.0222512" rpy="-1.87488 -1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.280351 -0.00797767 0.0222512" rpy="-1.87488 -1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0 0 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.281336 -0.00593927 0.0618512" rpy="1.5708 -2.19055e-15 -0.304088" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/towerservosg92r.stl"/>
+</geometry>
+<material name="towerservosg92r_material">
+<color rgba="0.341176 0.407843 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.281336 -0.00593927 0.0618512" rpy="1.5708 -2.19055e-15 -0.304088" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/towerservosg92r.stl"/>
+</geometry>
+<material name="towerservosg92r_material">
+<color rgba="0.341176 0.407843 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.2887 -0.00535772 0.0104012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.4.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.4_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.2887 -0.00535772 0.0104012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.4.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.4_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.2887 -0.00535772 0.0104012" rpy="-1.5708 3.11952e-16 -1.34848" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.2.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.2_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.2887 -0.00535772 0.0104012" rpy="-1.5708 3.11952e-16 -1.34848" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.2.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.2_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0.54902 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0.54902 0 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07112 -0.0550878 0.0528512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.4.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.4_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07112 -0.0550878 0.0528512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.4.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.4_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.25098 0.25098 0.25098 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13873 -0.0550878 0.0344012" rpy="1.5708 -2.20231e-15 -2.35922e-16" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.3.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.3_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13873 -0.0550878 0.0344012" rpy="1.5708 -2.20231e-15 -2.35922e-16" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.3.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.3_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.306876 0.000346301 0.0222512" rpy="1.26671 -1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.306876 0.000346301 0.0222512" rpy="1.26671 -1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.5.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.5_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.293613 -0.00381569 0.0315012" rpy="-1.5708 2.4437e-15 2.8375" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07112 -0.0550878 0.0531512" rpy="-1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.6.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.6_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07112 -0.0550878 0.0531512" rpy="-1.5708 1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/sg90_-_micro_servo_9g_-_tower_pro.6.stl"/>
+</geometry>
+<material name="sg90_-_micro_servo_9g_-_tower_pro.6_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.29798 -0.0135551 0.0848512" rpy="2.8375 -1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/rack_body.stl"/>
+</geometry>
+<material name="rack_body_material">
+<color rgba="0.792157 0.819608 0.933333 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.29798 -0.0135551 0.0848512" rpy="2.8375 -1.5708 0" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/rack_body.stl"/>
+</geometry>
+<material name="rack_body_material">
+<color rgba="0.792157 0.819608 0.933333 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0.54902 0 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="0.13358 -0.0550878 0.0133012" rpy="1.5708 2.20231e-15 -3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 0.54902 0 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="1 1 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.07627 -0.0550878 0.0317512" rpy="1.5708 2.20231e-15 3.14159" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/tower_pro_-_micro_servo_9g_-_sg90.1.stl"/>
+</geometry>
+<material name="tower_pro_-_micro_servo_9g_-_sg90.1_material">
+<color rgba="0 0 1 1.0"/>
+</material>
+</collision>
+<visual>
+<origin xyz="-0.279296 -0.0158027 0.0618512" rpy="1.5708 -1.74646e-15 -0.304088" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/bodybase1.stl"/>
+</geometry>
+<material name="bodybase1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</visual>
+<collision>
+<origin xyz="-0.279296 -0.0158027 0.0618512" rpy="1.5708 -1.74646e-15 -0.304088" />
+<geometry>
+<mesh filename="file:///home/risheekp/Documents/ros_workspaces/chess/src/chess_support/urdf5/bodybase1.stl"/>
+</geometry>
+<material name="bodybase1_material">
+<color rgba="0.776471 0.756863 0.737255 1.0"/>
+</material>
+</collision>
+<inertial>
+<origin xyz="0 0 0" rpy="0 0 0"/>
+<mass value="0" />
+<inertia ixx="0" ixy="0"  ixz="0" iyy="0" iyz="0" izz="0" />
+</inertial>
+</link>
+
+
+</robot>
