@@ -1,12 +1,13 @@
 # Chess-Playing-Arm
 EECS 106A Project to make a robotic arm that plays chess
 
+Published Website: https://sites.google.com/berkeley.edu/chessrobot/home
 
 TODO List:
 Finish Printing Arm
 Robot Assembly
 
-URDF Model (optional)
+URDF Model (SEE: URDF 5)
 
 PiCam chess recognition
 Arm movement 
@@ -19,3 +20,5 @@ https://cad.onshape.com/documents/f6b82b24ef2f9a0d96a2cff8/w/fa39063149d237e0352
 
 
 Stockfish Python Algorithm: https://pypi.org/project/stockfish/
+
+
